@@ -1,0 +1,12 @@
+C:\Bootcamp\WebApi\Core\bin\Debug\net7.0\Core.deps.json
+C:\Bootcamp\WebApi\Core\bin\Debug\net7.0\Core.dll
+C:\Bootcamp\WebApi\Core\bin\Debug\net7.0\Core.pdb
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.dll
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\Core.pdb
+C:\Bootcamp\WebApi\Core\obj\Debug\net7.0\ref\Core.dll
