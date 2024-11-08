@@ -46,3 +46,7 @@ C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\Core.dll
 C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\Infrastructure.dll
 C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\Core.pdb
 C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\Infrastructure.pdb
+C:\Bootcamp\WebApi\WebApi\obj\Debug\net7.0\WebApi.sourcelink.json
+C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Bootcamp\WebApi\WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll

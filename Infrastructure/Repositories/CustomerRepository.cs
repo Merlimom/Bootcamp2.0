@@ -1,6 +1,7 @@
 ﻿using Core.DTOs;
 using Core.Entities;
 using Core.Interfaces.Repositories;
+using Core.Requests;
 using Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,40 +17,37 @@ public class CustomerRepository : ICustomerRepository
      
         _context = context;
     }
-  
-    public async Task<List<CustomerDTO>> Add(string firstName, string? lastName)
+
+    public async Task<CustomerDTO> Add(string firstName, string? lastName)
     {
-        var entity = new Customer
+        var customerToCreate = new Customer
         {
             FirstName = firstName,
             LastName = lastName
         };
 
-        _context.Customers.Add(entity); //aqui no impactamos aun la BD
+        _context.Customers.Add(customerToCreate); //aqui no impactamos aun la BD
         await _context.SaveChangesAsync(); //esto impacta en la BD
 
-        return await List();
+        return new CustomerDTO
+        {
+            Id = customerToCreate.Id,
+            FullName = $"{customerToCreate.FirstName} {customerToCreate.LastName}",
+            Phone = customerToCreate.Phone,
+            Email = customerToCreate.Email,
+            BirthDate = customerToCreate.BirthDate
+        };
+
     }
 
-    public async Task<List<CustomerDTO>> List(int? page = 1, int? pageSize = 10)
+    public async Task<List<CustomerDTO>> List(PaginationRequest request)
     {
-        //var entities = await _context.Customers.ToListAsync();
-        //var dtos = entities.Select(customer => new CustomerDTO
-        //{
-        //    Id = customer.Id,
-        //    FullName = $"{customer.FirstName} {customer.LastName}",
-        //    Phone = customer.Phone,
-        //    Email = customer.Email,
-        //    BirthDate = customer.BirthDate,
-        //});
-        //return dtos.ToList();
-        int currentPage = page ?? 1;
-        int currentPageSize = pageSize ?? 10;
+        //        int currentPage = page ?? 1;
+        //int currentPageSize = pageSize ?? 10;
 
-        // Aplicamos Skip y Take según la página y el tamaño de página
-        var customers = await _context.Customers
-            .Skip((currentPage - 1) * currentPageSize)
-            .Take(currentPageSize)
+        var customersDto = await _context.Customers
+            .Skip((request.Page.Value - 1) * request.PageSize.Value)
+            .Take(request.PageSize.Value)
             .Select(customer => new CustomerDTO
             {
                 Id = customer.Id,
@@ -60,25 +58,37 @@ public class CustomerRepository : ICustomerRepository
             })
             .ToListAsync();
 
-        return customers;
+        return customersDto;
 
     }
 
-    public async Task<List<CustomerDTO>> Update(int id, string firstName, string? lastName)
+    public async Task<CustomerDTO> Update(int id, string firstName, string? lastName)
     {
         var entity = await VerifyExists(id);
+
         entity.FirstName = firstName;
         entity.LastName = lastName;
         _context.Customers.Update(entity);
         await _context.SaveChangesAsync();
-        return await List();
+
+        return new CustomerDTO
+        {
+            Id = id,
+            FullName = $"{entity.FirstName} {entity.LastName}",
+            Phone = entity.Phone,
+            Email = entity.Email,
+            BirthDate = entity.BirthDate
+        };
+
+
     }
-    public async Task<List<CustomerDTO>>Delete(int id)
+    public async Task<bool> Delete(int id)
     {
         var entity = await VerifyExists(id);
         _context.Customers.Remove(entity);
-        await _context.SaveChangesAsync();
-        return await List();
+       var result =  await _context.SaveChangesAsync();
+
+        return result > 0;
     }
 
     public async Task<CustomerDTO> Get(int id)

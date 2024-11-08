@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Bootcamp\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|c:\\bootcamp\\webapi\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|c:\\bootcamp\\webapi\\infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|c:\\bootcamp\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Bootcamp\\WebApi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|c:\\bootcamp\\webapi\\webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|c:\\bootcamp\\webapi\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|c:\\bootcamp\\webapi\\core\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|c:\\bootcamp\\webapi\\core\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|solutionrelative:core\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|c:\\bootcamp\\webapi\\core\\requests\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +31,12 @@
       "RelativeMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|solutionrelative:core\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|c:\\bootcamp\\webapi\\core\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFA6917-6D14-4797-A6FD-3D10853F5D4E}|Core\\Core.csproj|solutionrelative:core\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|c:\\bootcamp\\webapi\\infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|c:\\bootcamp\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3ED2A3E-3EDB-44FE-8BAD-DAD0848DEA2F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18A1CB4E-D1F1-4A11-AC96-5E501D1A0284}|Infrastructure\\Infrastructure.csproj|c:\\bootcamp\\webapi\\infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -68,6 +72,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:54:37.12Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Bootcamp\\WebApi\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Bootcamp\\WebApi\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAABAAAAAAAAAAAuwMkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-08T13:54:34.52Z",
               "EditorCaption": ""
             },
             {
@@ -89,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "CustomerDTO.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Core\\DTOs\\CustomerDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\CustomerDTO.cs",
               "ToolTip": "C:\\Bootcamp\\WebApi\\Core\\DTOs\\CustomerDTO.cs",
               "RelativeToolTip": "Core\\DTOs\\CustomerDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T16:30:22.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
@@ -115,8 +132,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Infrastructure",
+              "DocumentIndex": 11,
+              "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
               "ToolTip": "C:\\Bootcamp\\WebApi\\Infrastructure\\Infrastructure.csproj",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CustomerConfiguration.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Infrastructure\\Configurations\\CustomerConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Configurations\\CustomerConfiguration.cs",
@@ -141,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
@@ -154,39 +171,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\WebApi\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Bootcamp\\WebApi\\WebApi\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA8AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:42:52.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Infrastructure\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
               "ToolTip": "C:\\Bootcamp\\WebApi\\Infrastructure\\Repositories\\CustomerRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAArwEwAAAAFAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAmwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:28:51.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Bootcamp\\WebApi\\Core\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "ToolTip": "C:\\Bootcamp\\WebApi\\Core\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeToolTip": "Core\\Interfaces\\Repositories\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:27:59.725Z",
               "EditorCaption": ""

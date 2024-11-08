@@ -13,3 +13,4 @@ C:\Bootcamp\WebApi\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
 C:\Bootcamp\WebApi\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 C:\Bootcamp\WebApi\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 C:\Bootcamp\WebApi\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Bootcamp\WebApi\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

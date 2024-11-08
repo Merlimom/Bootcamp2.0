@@ -19,10 +19,10 @@ public class CustomerController : BaseApiController
 
     {
         //return Ok(await _customerRepository.List());
-        int page = request.Page ?? 1;      // Predeterminado a 1 si no se proporciona
-        int pageSize = request.PageSize ?? 10;  // Predeterminado a 10 si no se proporciona
+        //int page = request.Page ?? 1;      // Predeterminado a 1 si no se proporciona
+        //int pageSize = request.PageSize ?? 10;  // Predeterminado a 10 si no se proporciona
 
-        var response = await _customerRepository.List(page, pageSize);
+        var response = await _customerRepository.List(request);
         return Ok(response);
     }
 
