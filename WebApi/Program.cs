@@ -1,4 +1,5 @@
 using Infrastructure;
+using WebApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddRepositories();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddDatabase(builder.Configuration);
+
 
 
 var app = builder.Build();
